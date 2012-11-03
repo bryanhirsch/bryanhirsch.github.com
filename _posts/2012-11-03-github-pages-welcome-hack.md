@@ -1,6 +1,6 @@
 ---
-layout: architect
-title: GitHub Pages Architect Template
+layout: hack
+title: GitHub Pages Hack Template
 tags: bh-2 projects jekyll
 ---
 

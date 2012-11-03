@@ -1,6 +1,6 @@
 ---
-layout: architect
-title: GitHub Pages Architect Template
+layout: dinky
+title: GitHub Pages Dinky Template
 tags: bh-2 projects jekyll
 ---
 

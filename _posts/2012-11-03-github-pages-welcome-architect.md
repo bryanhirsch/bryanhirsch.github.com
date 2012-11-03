@@ -1,8 +1,7 @@
 ---
 layout: architect
 title: GitHub Pages Architect Template
-categories: jekyll
-tags: bh-1 projects
+tags: bh-1 projects jekyll
 ---
 
 ### Welcome to GitHub Pages.

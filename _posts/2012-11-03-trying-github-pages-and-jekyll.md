@@ -1,6 +1,5 @@
 ---
 layout: architect
-categories: jekyll
 tags: bh-1 projects
 ---
 

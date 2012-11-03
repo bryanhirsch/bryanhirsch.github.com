@@ -4,7 +4,7 @@ title: Trying Jekyll
 tags: bh-2 projects
 ---
 
-### Make GitHub Pages template branches (bh-1)
+### Make GitHub Pages template branches (see bh-1)
 
 ### Add each branch as a git subtree here: github-pages/templates/template-name
 
@@ -15,8 +15,10 @@ tags: bh-2 projects
 
 ### Make this into a Jekyll layout template like this:
 
-  Add title token:    {{page.title}}
-  And content token:  {{content}}
+  Add title token:    \{\{page.title\}\}
+
+  And content token:  \{\{content\}\}
+
   Fix paths to CSS and JS. E.g. with vim:
     
     %s/stylesheets/\/templates\/github-pages\/$TEMPLATE\/stylesheets
@@ -29,7 +31,7 @@ tags: bh-2 projects
     cd ../_posts/
     vim 2012-11-03-github-pages-welcome-$TEMPLATE.md
 
-   Copy and paste <a href="https://raw.github.com/bryanhirsch/bryanhirsch.github.com/master/_posts/2012-11-03-github-pages-welcome-architect.md">Default Welcome texte</a>
+   Copy and paste <a href="https://raw.github.com/bryanhirsch/bryanhirsch.github.com/master/_posts/2012-11-03-github-pages-welcome-architect.md">Default Welcome text</a>
 
    Make the heaer look like this:
        

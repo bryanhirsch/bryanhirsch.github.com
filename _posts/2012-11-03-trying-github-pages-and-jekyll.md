@@ -1,19 +1,35 @@
 ---
 layout: architect
-title: Trying Jekyll
+title: Test Driving Jekyll
 tags: bh-2 projects
 ---
 
-### Make GitHub Pages template branches (see bh-1)
+Test Driving Jekyll
+===================
 
-### Add each branch as a git subtree here: github-pages/templates/template-name
+To test drive Jekyll, I'm going to convert static GitHub Pages HTML templates into reusable Jekyll page layouts. As a starting point I have a bunch of static HTML to work with as described <a href="/2012/11/03/github-pages-test.html">here</a>.
+
+After going through the steps once, I wrote the steps below to make additional Jekyll templates quickly by copying and pasting these commands into my terminal...
+
+
+### A few steps to get started.
+
+* [Install Jekyll](https://github.com/mojombo/jekyll/wiki/install)
+* Create a `_config.yml` file
+
+
+### Set an environment variable with the name of the new template (e.g. dinky).
 
     export TEMPLATE=dinky
+
+
+### Create a new layout.
+
     cd _layouts
     cp ../github-pages/templates/$TEMPLATE/index.html $TEMPLATE.html
     vim $TEMPLATE.html 
 
-### Make this into a Jekyll layout template like this:
+Make this into a Jekyll layout template like this:
 
   Add title token:    \{\{page.title\}\}
 
@@ -24,23 +40,25 @@ tags: bh-2 projects
     %s/stylesheets/\/templates\/github-pages\/$TEMPLATE\/stylesheets
     %s/javascripts/\/templates\/github-pages\/$TEMPLATE\/javascripts
 
-  E.g. <a href="https://github.com/bryanhirsch/bryanhirsch.github.com/commit/2f6a7748f300f1628cfed48a11efe431b58f7003">2f6a7748f</a>
+  For example, <a href="https://github.com/bryanhirsch/bryanhirsch.github.com/commit/2f6a7748f300f1628cfed48a11efe431b58f7003">2f6a7748f</a>.
 
-### copy default welcome text into 2012-11-03-github-pages-welcome-dinky.md
+
+### Copy default Welcome text into a blog post following the convention YYYY-MM-DD-title.md.
 
     cd ../_posts/
     vim 2012-11-03-github-pages-welcome-$TEMPLATE.md
 
    Copy and paste <a href="https://raw.github.com/bryanhirsch/bryanhirsch.github.com/master/_posts/2012-11-03-github-pages-welcome-architect.md">Default Welcome text</a>
 
-   Make the heaer look like this:
+
+### Tell Jekyll what template to use by adding a header like this:
        
       ```
       layout: dinky
       title: GitHub Pages Dinky Template
       ```
 
-### Copy assets.
+### Copy assets from the static copies into the templates directory.
 
     cd ../templates/github-pages/
     cp -r ../../github-pages/templates/$TEMPLATE/ $TEMPLATE
@@ -51,4 +69,19 @@ tags: bh-2 projects
 
     ls
     images      javascripts stylesheets
+
+
+### Re-generate the site and confirm it worked.
+
+    # Go back to docroot (top level directory).
+    cd ../../..
+
+    # Rebuild site.
+    jekyll ./ _site
+
+    # If it worked, there will be a new page here:
+    http://bryanhirsch.github.com/2012/11/03/github-pages-welcome-dinky.html
+
+    # This page should match
+    http://bryanhirsch.github.com/github-pages/templates/dinky/
 

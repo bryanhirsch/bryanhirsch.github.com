@@ -22,3 +22,20 @@ As I have made a static copy of all the different GitHub Pages templates with th
     github-pages/templates/slate
     github-pages/templates/tactile
     github-pages/templates/time-machine
+
+
+GitHub Pages templates:
+-----------------------
+  <p>
+    <a href="/github-pages/templates/architect/">architect</a><br/>
+    <a href="/github-pages/templates/dinky/">dinky</a><br/>
+    <a href="/github-pages/templates/hack/">hack</a><br/>
+    <a href="/github-pages/templates/leapday/">leapday</a><br/>
+    <a href="/github-pages/templates/merlot/">merlot</a><br/>
+    <a href="/github-pages/templates/midnight/">midnight</a><br/>
+    <a href="/github-pages/templates/minimal/">minimal</a><br/>
+    <a href="/github-pages/templates/modernist/">modernist</a><br/>
+    <a href="/github-pages/templates/slate/">slate</a><br/>
+    <a href="/github-pages/templates/tactile/">tactile</a><br/>
+    <a href="/github-pages/templates/time-machine/">time machine</a><br/>
+  </p>

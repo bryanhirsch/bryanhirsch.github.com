@@ -1,0 +1,1 @@
+github-pages/templates/minimal/2012-08-26-your-filename.md

@@ -56,24 +56,36 @@ function _git_log_execute($command) {
 
   // Polish up output.
   $contents = explode("\n", $contents);
-  $i = 0;
   $is_oneline = strpos($command, 'oneline');
   foreach ($contents as $content) {
     // Make commit ID in long log link to GitHub.
     $parts = explode(' ', trim($content));
     $is_commit = ($parts[0] == 'commit') ? TRUE : FALSE;
+    $is_author = ($parts[0] == 'Author:') ? TRUE : FALSE;
+    $is_date = ($parts[0] == 'Date:') ? TRUE : FALSE;
     if (!$is_oneline && $is_commit) {
       $content = _github_commit_links($content);
     }
-    $i++;
+    else if ($is_author || $is_date) {
+      // Suppress 'Author' line.
+      continue;
+    }
 
     // Put oneline in code comment.
     if ($is_oneline) {
       $output .= '    ' . $content . "\n";  
     }
     // Put long log in blockquote.
-    else {
+    else if ($is_commit || $is_author || $is_date) {
+      // Like this:
+      //
+      // > Commit: asdf
+      // >
+      // > Author: Jane Smith
       $output .= '> ' . $content . "\n>\n";  
+    }
+    else {
+      $output .= '> ' . $content . "\n";  
     }
   }
 

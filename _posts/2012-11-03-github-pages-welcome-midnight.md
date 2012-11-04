@@ -1,5 +1,5 @@
 ---
-layout: midnight
+layout: post
 title: GitHub Pages Midnight Template
 tags: bh-2 projects jekyll
 ---

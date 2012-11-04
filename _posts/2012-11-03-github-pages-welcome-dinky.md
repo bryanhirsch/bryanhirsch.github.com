@@ -1,5 +1,5 @@
 ---
-layout: dinky
+layout: post
 title: GitHub Pages Dinky Template
 tags: bh-2 projects jekyll
 ---

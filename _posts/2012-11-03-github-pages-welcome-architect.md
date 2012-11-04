@@ -1,5 +1,5 @@
 ---
-layout: architect
+layout: post
 title: GitHub Pages Architect Template
 tags: bh-2 projects jekyll
 ---

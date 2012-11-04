@@ -1,5 +1,5 @@
 ---
-layout: tactile
+layout: post
 title: GitHub Pages Tactile Template
 tags: bh-2 projects jekyll
 ---

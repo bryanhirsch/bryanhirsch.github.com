@@ -1,5 +1,5 @@
 ---
-layout: architect
+layout: post
 title: GitHub Pages Test
 tags: projects bh-1 github
 ---

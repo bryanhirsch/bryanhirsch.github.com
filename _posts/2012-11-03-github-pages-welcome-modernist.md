@@ -1,5 +1,5 @@
 ---
-layout: modernist 
+layout: post
 title: GitHub Pages Modernist Template
 tags: bh-2 projects jekyll
 ---

@@ -1,5 +1,5 @@
 ---
-layout: leapday
+layout: post
 title: GitHub Pages Leapday Template
 tags: bh-2 projects jekyll
 ---

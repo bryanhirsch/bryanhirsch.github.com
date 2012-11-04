@@ -1,5 +1,5 @@
 ---
-layout: architect
+layout: post
 title: Test Driving Jekyll
 tags: bh-2 projects
 ---

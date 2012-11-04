@@ -1,5 +1,5 @@
 ---
-layout: slate 
+layout: post
 title: GitHub Pages Slate Template
 tags: bh-2 projects jekyll
 ---

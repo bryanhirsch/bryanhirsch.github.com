@@ -34,10 +34,15 @@ function main($argv) {
     $output .= _git_log_execute($command);
   }
 
-
-  file_put_contents('_posts/' . $filename, $output);
+  $file = '_posts/' . $filename;
+  file_put_contents($file, $output);
+  print $file . "\n\n";
 }
 
+/**
+ * @param $command
+ *  String. `git log --options` 
+ */
 function _git_log_execute($command) {
   $output = '';
 
@@ -47,14 +52,66 @@ function _git_log_execute($command) {
   $output .= "\n\n" . $command . "\n\n";
 
   // Get content from git log.
-  $contents .= shell_exec($command);  
-  // Polish up output, indent so Makuru puts it in blockquotes.
+  $contents = shell_exec($command);  
+
+  // Polish up output.
   $contents = explode("\n", $contents);
+  $i = 0;
+  $is_oneline = strpos($command, 'oneline');
   foreach ($contents as $content) {
-    $output .= '    ' . $content . "\n";  
+    // Make commit ID in long log link to GitHub.
+    $parts = explode(' ', trim($content));
+    $is_commit = ($parts[0] == 'commit') ? TRUE : FALSE;
+    if (!$is_oneline && $is_commit) {
+      $content = _github_commit_links($content);
+    }
+    $i++;
+
+    // Put oneline in code comment.
+    if ($is_oneline) {
+      $output .= '    ' . $content . "\n";  
+    }
+    // Put long log in blockquote.
+    else {
+      $output .= '> ' . $content . "\n";  
+    }
   }
 
+  $output = $output;
+
   return $output;
+}
+
+/**
+ * @param $line
+ *  String with commit ID from git log.
+ *
+ * @param $type
+ *  String. E.g. 'oneline' for --oneline
+ *  
+ * @return
+ *  String. Replace commit ID with a link to ID on GitHub.
+ */
+function _github_commit_links($line, $type = 'default') {
+  $parts = explode(' ', trim($line));
+  $account = 'bryanhirsch';
+  $repo = 'bryanhirsch.github.com';
+
+  switch ($type) {
+    case 'oneline':
+      $commit = $parts[0];
+      break;
+
+    default:
+      $commit = $parts[1];
+  }  
+
+  $href = sprintf('https://github.com/%s/%s/commit/%s', $account, $repo, $commit);
+  //$link = sprintf('<a href="%s">%s</a>', $href, $commit);
+  $link = sprintf('[%s](%s)', $commit, $href);
+  $line = str_replace($commit, $link, $line);
+
+  return $line;
 }
 
 /**

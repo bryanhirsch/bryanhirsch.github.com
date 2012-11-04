@@ -1,0 +1,69 @@
+#!/usr/bin/php
+<?php
+/**
+ * Generate a "git log" post.
+ *
+ * Usage:
+ *  ./scripts/git-log project-ID YYYY-MM-DD 
+ */
+
+main($argv);
+
+function main($argv) {
+  if (count($argv) < 2 || $argv[1] == 'help') {
+    printf("%s\n", 'Do this:');
+    printf("\t%s\n", './scripts/git-log project-ID YYYY-MM-DD');
+    printf("\t%s\n", 'YYYY-MM-DD (optional)');
+    return;
+  }
+  else {
+    $id = $argv[1];
+    $date = ($argv[2]) ? $argv[2] : date('Y-m-d', time());
+    $filename = sprintf('%s-%s.md', $date, $id);
+  }
+
+  $commands = array(
+    sprintf('git log --grep=%s --oneline', $id, $date, $id),
+    sprintf('git log --grep=%s', $id, $date, $id),
+  );
+
+  // Build post.
+  $output = '';
+  $output .= _git_log_header();
+  foreach ($commands as $command) {
+    $output .= _git_log_execute($command);
+  }
+
+
+  file_put_contents('_posts/' . $filename, $output);
+}
+
+function _git_log_execute($command) {
+  $output = '';
+
+  printf("Running:\n\t%s\n", $command);
+
+  // Print command above as header.
+  $output .= "\n\n" . $command . "\n\n";
+
+  // Get content from git log.
+  $contents .= shell_exec($command);  
+  // Polish up output, indent so Makuru puts it in blockquotes.
+  $contents = explode("\n", $contents);
+  foreach ($contents as $content) {
+    $output .= '    ' . $content . "\n";  
+  }
+
+  return $output;
+}
+
+/**
+ * Make jekyll header.
+ */
+function _git_log_header() {
+  $output = "---\n";  
+  $output .= "layout: post\n";
+  $output .= "---\n";  
+
+  return $output;
+}

@@ -132,6 +132,7 @@ function _github_commit_links($line, $type = 'default') {
 function _git_log_header() {
   $output = "---\n";  
   $output .= "layout: post\n";
+  $output .= "categories: git-log \n";
   $output .= "---\n";  
 
   return $output;

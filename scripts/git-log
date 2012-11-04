@@ -73,7 +73,7 @@ function _git_log_execute($command) {
     }
     // Put long log in blockquote.
     else {
-      $output .= '> ' . $content . "\n";  
+      $output .= '> ' . $content . "\n>\n";  
     }
   }
 

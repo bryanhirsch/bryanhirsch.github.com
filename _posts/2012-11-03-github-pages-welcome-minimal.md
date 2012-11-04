@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: minimal
 title: GitHub Pages Minimal Template
 tags: bh-2 project jekyll
 ---

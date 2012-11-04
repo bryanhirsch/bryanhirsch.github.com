@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: time-machine
 title: GitHub Pages Time Machine Template
 tags: bh-2 projects jekyll
 ---

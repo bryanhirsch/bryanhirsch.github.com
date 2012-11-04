@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hack
 title: GitHub Pages Hack Template
 tags: bh-2 projects jekyll
 ---

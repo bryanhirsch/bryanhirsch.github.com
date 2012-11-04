@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: merlot
 title: GitHub Pages Merlot Template
 tags: bh-2 project jekyll
 ---

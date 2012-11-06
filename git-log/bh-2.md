@@ -33,6 +33,8 @@ categories: git-log
 
 commit [9099af9e2262ff461fe911ff127f6ebbdf65977e](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/9099af9e2262ff461fe911ff127f6ebbdf65977e)
 
+Date:   Sat Nov 3 16:12:27 2012 -0400
+
     bh-2 - Add Time Machine template.
     
      	new file:   _layouts/time-machine.html
@@ -48,6 +50,8 @@ commit [9099af9e2262ff461fe911ff127f6ebbdf65977e](https://github.com/bryanhirsch
      	new file:   templates/github-pages/time-machine/stylesheets/stylesheet.css
 
 commit [51ae47ca988bbabc949017e7a111e991efdb5365](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/51ae47ca988bbabc949017e7a111e991efdb5365)
+
+Date:   Sat Nov 3 16:07:31 2012 -0400
 
     bh-2 - Add Tactile template.
     
@@ -67,6 +71,8 @@ commit [51ae47ca988bbabc949017e7a111e991efdb5365](https://github.com/bryanhirsch
 
 commit [08103fd287b577e4c6381c576882ca28b709ee86](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/08103fd287b577e4c6381c576882ca28b709ee86)
 
+Date:   Sat Nov 3 16:02:07 2012 -0400
+
     bh-2 - Add Slate template.
     
      	new file:   _layouts/slate.html
@@ -82,6 +88,8 @@ commit [08103fd287b577e4c6381c576882ca28b709ee86](https://github.com/bryanhirsch
 
 commit [a64ca6f35ff3c1affca9e1c73227b4f471664ccd](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/a64ca6f35ff3c1affca9e1c73227b4f471664ccd)
 
+Date:   Sat Nov 3 15:55:26 2012 -0400
+
     bh-2 - Add Modernist template.
     
      	new file:   _layouts/modernist.html
@@ -94,6 +102,8 @@ commit [a64ca6f35ff3c1affca9e1c73227b4f471664ccd](https://github.com/bryanhirsch
 
 commit [4bccdc1f6f074a2c1f596113429e6cecbf01ccc8](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/4bccdc1f6f074a2c1f596113429e6cecbf01ccc8)
 
+Date:   Sat Nov 3 15:51:32 2012 -0400
+
     bh-2 - Add Minimal template.
     	modified:   .gitignore
     	new file:   _layouts/minimal.html
@@ -104,6 +114,8 @@ commit [4bccdc1f6f074a2c1f596113429e6cecbf01ccc8](https://github.com/bryanhirsch
     	new file:   templates/github-pages/minimal/stylesheets/styles.css
 
 commit [ad9c0ec5452d24e054b259e75696c2fae95eb799](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/ad9c0ec5452d24e054b259e75696c2fae95eb799)
+
+Date:   Sat Nov 3 15:50:55 2012 -0400
 
     bh-2 - Add Midnight template
     
@@ -151,6 +163,8 @@ commit [ad9c0ec5452d24e054b259e75696c2fae95eb799](https://github.com/bryanhirsch
      	new file:   templates/github-pages/midnight/stylesheets/styles.css
 
 commit [a11975a88f5c5380bb8b7676de513786383f2022](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/a11975a88f5c5380bb8b7676de513786383f2022)
+
+Date:   Sat Nov 3 15:39:29 2012 -0400
 
     bh-2 - Add Merlot template
      	new file:   _layouts/merlot.html
@@ -208,6 +222,8 @@ commit [a11975a88f5c5380bb8b7676de513786383f2022](https://github.com/bryanhirsch
 
 commit [45653e1a2fe5cc6b3f11cb0c13adb53041834c10](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/45653e1a2fe5cc6b3f11cb0c13adb53041834c10)
 
+Date:   Sat Nov 3 15:37:56 2012 -0400
+
     bh-2 - Add Leapday template.
     
      	new file:   _layouts/leapday.html
@@ -244,14 +260,20 @@ commit [45653e1a2fe5cc6b3f11cb0c13adb53041834c10](https://github.com/bryanhirsch
 
 commit [2e55722ac89c9cfddf4a94b049b7a80f47cfef1c](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/2e55722ac89c9cfddf4a94b049b7a80f47cfef1c)
 
+Date:   Sat Nov 3 14:36:51 2012 -0400
+
     bh-2 - Dinky template: Add Dinky to the list.
 
 commit [2f6a7748f300f1628cfed48a11efe431b58f7003](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/2f6a7748f300f1628cfed48a11efe431b58f7003)
+
+Date:   Sat Nov 3 14:33:54 2012 -0400
 
     bh-2 - Dinky template: Make static dinky.html into a Jekyll layout template.
      	modified:   dinky.html
 
 commit [fe80f1ba1fbec942b7d9641d5d5875741667c373](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/fe80f1ba1fbec942b7d9641d5d5875741667c373)
+
+Date:   Sat Nov 3 14:30:51 2012 -0400
 
     bh-2 - Dinky template: Copy originals.
      	modified:   architect.html
@@ -274,6 +296,8 @@ commit [fe80f1ba1fbec942b7d9641d5d5875741667c373](https://github.com/bryanhirsch
 
 commit [8fb5f25b7b21441e20ba0a8d58d7888bf3401a81](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/8fb5f25b7b21441e20ba0a8d58d7888bf3401a81)
 
+Date:   Sat Nov 3 13:40:52 2012 -0400
+
     bh-2 - Use tags not categories. Categories show up as a prefix in the URL.
     
       modified:   2012-11-03-github-pages-welcome-architect.md
@@ -281,13 +305,19 @@ commit [8fb5f25b7b21441e20ba0a8d58d7888bf3401a81](https://github.com/bryanhirsch
 
 commit [b3fca39881a90374a53220e6b813f8390057ea28](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/b3fca39881a90374a53220e6b813f8390057ea28)
 
+Date:   Sat Nov 3 13:43:04 2012 -0400
+
     bh-2 - Restore static github-pages templates and add links to index.html.
 
 commit [fb80e93d410984a2f14012c76712c592dca14ee5](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/fb80e93d410984a2f14012c76712c592dca14ee5)
 
+Date:   Sat Nov 3 13:17:04 2012 -0400
+
     bh-2 - Make index.html a Jekyll template.
 
 commit [f0dbe3ee774a3c5406f2b124e9705ab65aa07338](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/f0dbe3ee774a3c5406f2b124e9705ab65aa07338)
+
+Date:   Sat Nov 3 12:34:08 2012 -0400
 
     bh-2 - Re-generate architect.html with Jekyll.
     
@@ -299,6 +329,8 @@ commit [f0dbe3ee774a3c5406f2b124e9705ab65aa07338](https://github.com/bryanhirsch
 
 commit [8f8fb3259fc383de99f100b8ed63f7789a006c4b](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/8f8fb3259fc383de99f100b8ed63f7789a006c4b)
 
+Date:   Sat Nov 3 11:51:13 2012 -0400
+
     bh-2 - Beging making GitHub "Architect" template into a Jekyll template:
     
       new file:   _layouts/architect.html                       <--- default index.html
@@ -308,6 +340,8 @@ commit [8f8fb3259fc383de99f100b8ed63f7789a006c4b](https://github.com/bryanhirsch
 
 commit [dc024260fe7506a1f07b6f45c2a1a1dca1f8aa17](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/dc024260fe7506a1f07b6f45c2a1a1dca1f8aa17)
 
+Date:   Sat Nov 3 12:13:50 2012 -0400
+
     bh-2 - Make default config explicit so it's easier to see what's going on.
     
     Copy and paste _config.yml contents from here:
@@ -315,13 +349,19 @@ commit [dc024260fe7506a1f07b6f45c2a1a1dca1f8aa17](https://github.com/bryanhirsch
 
 commit [2387dd1dba42ddbcaed3af7363f5d76bf9066c3b](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/2387dd1dba42ddbcaed3af7363f5d76bf9066c3b)
 
+Date:   Sat Nov 3 11:48:39 2012 -0400
+
     bh-2 - Add basic Jekyll config.
 
 commit [55d0f663b1d939030e0bec6f29282dc66e5fbfed](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/55d0f663b1d939030e0bec6f29282dc66e5fbfed)
 
+Date:   Sat Nov 3 11:06:45 2012 -0400
+
     bh-2 - README.md
 
 commit [dafe8b849b22b1b25a4333c5a5a95d5b7dc1967e](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/dafe8b849b22b1b25a4333c5a5a95d5b7dc1967e)
+
+Date:   Sat Nov 3 11:04:33 2012 -0400
 
     bh-2 - Remove all formatting. So we can rebuild with Jekyll.
 

@@ -15,9 +15,13 @@ categories: git-log
 
 commit [c3a7a53d3b844b8261476a45b2797abbe0139811](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/c3a7a53d3b844b8261476a45b2797abbe0139811)
 
+Date:   Mon Nov 5 22:18:04 2012 -0500
+
     bh-7 - Update log.
 
 commit [b0d22a50dc6b82436a9f79d5d4e518ac0be5ebc6](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/b0d22a50dc6b82436a9f79d5d4e518ac0be5ebc6)
+
+Date:   Mon Nov 5 22:14:00 2012 -0500
 
     bh-7 - Add example files from Handcrafted CSS to repo, http://handcraftedcss.com/.
     

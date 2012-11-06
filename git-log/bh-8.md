@@ -14,6 +14,8 @@ categories: git-log
 
 commit [1465ed234e1396ee7f6baf1b9788d711c79f4eb7](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/1465ed234e1396ee7f6baf1b9788d711c79f4eb7)
 
+Date:   Mon Nov 5 23:11:16 2012 -0500
+
     bh-8 - Move reusable lists (e.g. posts and git log) into _includes.
     
      	new file:   _includes/git-log.md

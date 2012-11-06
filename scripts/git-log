@@ -74,7 +74,10 @@ function _git_log_execute($command) {
     if (!$is_oneline && $is_commit) {
       $content = _github_commit_links($content);
     }
-    else if ($is_author || $is_date) {
+    else if ($is_date) {
+      $content = "\n" . $content;
+    }
+    else if ($is_author) {
       // Suppress 'Author' line.
       continue;
     }

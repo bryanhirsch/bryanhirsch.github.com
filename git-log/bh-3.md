@@ -17,17 +17,25 @@ categories: git-log
 
 commit [bb1dda60cf79b7f13680c46427220abf4f7da17e](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/bb1dda60cf79b7f13680c46427220abf4f7da17e)
 
+Date:   Sun Nov 4 09:22:37 2012 -0500
+
     bh-3 - Document bh-3 in git log project ID list.
 
 commit [7249b1968e70923d640f89982308b36b56054b91](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/7249b1968e70923d640f89982308b36b56054b91)
+
+Date:   Sun Nov 4 09:18:35 2012 -0500
 
     bh-3 - Leave example posts hard-coded to demo particular templates.
 
 commit [27a60a25711967bd614e00c1c658fe245c2d6841](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/27a60a25711967bd614e00c1c658fe245c2d6841)
 
+Date:   Sun Nov 4 09:13:40 2012 -0500
+
     bh-3 - Create a default template for entire site (that can be easily changed in a single place).
 
 commit [8d78fd0db1f93974dd4f7c8fc61eb46b22be9452](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/8d78fd0db1f93974dd4f7c8fc61eb46b22be9452)
+
+Date:   Sun Nov 4 09:06:25 2012 -0500
 
     bh-3 - Make a post template. One place to update all templates.
     

@@ -14,3 +14,4 @@ Git log: Project IDs
 * [bh-4](/git-log/bh-4.html) - Generate git log posts to link to project IDs.
 * [bh-5](/git-log/bh-5.html) - Update site template to "slate".
 * [bh-6](/git-log/bh-6.html) - Add Google search.
+* [bh-7](/git-log/bh-7.html) - Handcrafted CSS examples: [example 1](/handcraftedcss/index.html), [example 2](/handcraftedcss/examples.html)

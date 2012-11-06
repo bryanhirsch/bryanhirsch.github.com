@@ -4,7 +4,7 @@
  * Generate a "git log" post.
  *
  * Usage:
- *  ./scripts/git-log project-ID YYYY-MM-DD 
+ *  ./scripts/git-log project-ID
  */
 
 main($argv);
@@ -12,19 +12,19 @@ main($argv);
 function main($argv) {
   if (count($argv) < 2 || $argv[1] == 'help') {
     printf("%s\n", 'Do this:');
-    printf("\t%s\n", './scripts/git-log project-ID YYYY-MM-DD');
-    printf("\t%s\n", 'YYYY-MM-DD (optional)');
+    printf("\t%s\n", './scripts/git-log project-ID');
     return;
   }
   else {
     $id = $argv[1];
-    $date = ($argv[2]) ? $argv[2] : date('Y-m-d', time());
-    $filename = sprintf('%s-%s.md', $date, $id);
+    //$date = ($argv[2]) ? $argv[2] : date('Y-m-d', time());
+    //$filename = sprintf('%s-%s.md', $date, $id);
+    $filename = sprintf('%s.md', $id);
   }
 
   $commands = array(
-    sprintf('git log --grep=%s --oneline', $id, $date, $id),
-    sprintf('git log --grep=%s', $id, $date, $id),
+    sprintf('git log --grep=%s --oneline', $id),
+    sprintf('git log --grep=%s', $id),
   );
 
   // Build post.
@@ -34,7 +34,7 @@ function main($argv) {
     $output .= _git_log_execute($command);
   }
 
-  $file = '_posts/' . $filename;
+  $file = 'git-log/' . $filename;
   file_put_contents($file, $output);
   print $file . "\n\n";
 }

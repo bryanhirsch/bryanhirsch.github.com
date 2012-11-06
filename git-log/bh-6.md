@@ -6,7 +6,7 @@ categories: git-log
 
 git log --grep=bh-6 --oneline
 
-    bd86475 bh-6 - Update git-log.
+    d76973f bh-6 - Update git-log.
     4084fec bh-6 - Add Google search include to v1 Slate template.
     6a4ddfd bh-6 - Add Google search, using google.com/cse.
     
@@ -14,7 +14,7 @@ git log --grep=bh-6 --oneline
 
 git log --grep=bh-6
 
-> commit [bd864754208db8427e72c9257ce8dbfe9c66ada3](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/bd864754208db8427e72c9257ce8dbfe9c66ada3)
+> commit [d76973f713e5b6aa670b1c21aeacf595f45cad92](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/d76973f713e5b6aa670b1c21aeacf595f45cad92)
 >
 > 
 >     bh-6 - Update git-log.

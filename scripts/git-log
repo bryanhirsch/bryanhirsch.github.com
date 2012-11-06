@@ -5,6 +5,14 @@
  *
  * Usage:
  *  ./scripts/git-log project-ID
+ * 
+ *  NOTE: This script expects your commits to follow this
+ *  format: 
+ * 
+ *     ID - Message.
+ *
+ *   Pass the ID to the script. But you also need the space
+ *   and following dash, otherwise the grep is a little too aggressive.
  */
 
 main($argv);

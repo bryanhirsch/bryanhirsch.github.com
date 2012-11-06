@@ -6,6 +6,8 @@ categories: git-log
 
 ##### git log --grep="bh-4 -" --oneline
 
+    5cf39bb bh-4 - scripts/git-log, documentation
+    317bb6c bh-4 - Use <h5> for $command line above commit log.
     296c9e5 bh-4 - Remove blockquote from full git logs.
     1f728cf bh-4 - Move log files out of _posts/ into git-log/.
     ed28886 bh-4 - Make git-log a "category".
@@ -18,6 +20,27 @@ categories: git-log
 
 
 ##### git log --grep="bh-4 -"
+
+commit [5cf39bb5fe543e1391f11b7dbbd97eab2e3ce92e](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/5cf39bb5fe543e1391f11b7dbbd97eab2e3ce92e)
+
+    bh-4 - scripts/git-log, documentation
+    
+      modified:   git-log/bh-4.md
+      modified:   scripts/git-log
+
+commit [317bb6c751420ffcc5de79eb01474898808aa7e9](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/317bb6c751420ffcc5de79eb01474898808aa7e9)
+
+    bh-4 - Use <h5> for $command line above commit log.
+    
+    	modified:   git-log/bh-1.md
+    	modified:   git-log/bh-2.md
+    	modified:   git-log/bh-3.md
+    	modified:   git-log/bh-4.md
+    	modified:   git-log/bh-5.md
+    	modified:   git-log/bh-6.md
+    	modified:   git-log/bh-7.md
+    	modified:   git-log/bh-8.md
+    	modified:   scripts/git-log
 
 commit [296c9e5f5e70d8cff172329bef1a8a9fc7f71d2d](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/296c9e5f5e70d8cff172329bef1a8a9fc7f71d2d)
 

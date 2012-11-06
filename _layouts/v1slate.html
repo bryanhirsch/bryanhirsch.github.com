@@ -9,7 +9,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/templates/github-pages/slate/stylesheets/stylesheet.css">
 
     <title>{{page.title}}</title>
-    {% include search.js %}
+    {% if site.search %}
+      {% include search.js %}
+    {% endif %}
   </head>
 
   <body>
@@ -38,7 +40,10 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-        {% include search.html %}
+        {% if site.search %}
+          {% include search.html %}
+        {% endif%}
+
       </footer>
     </div>
 

@@ -40,3 +40,5 @@ coderay:
   coderay_bold_every: 10
   coderay_css: style
 
+# Custom config
+search: true

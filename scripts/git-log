@@ -49,7 +49,7 @@ function _git_log_execute($command) {
   printf("Running:\n\t%s\n", $command);
 
   // Print command above as header.
-  $output .= "\n\n" . $command . "\n\n";
+  $output .= sprintf("\n\n### %s\n\n", $command);
 
   // Get content from git log.
   $contents = shell_exec($command);  
@@ -76,16 +76,8 @@ function _git_log_execute($command) {
       $output .= '    ' . $content . "\n";  
     }
     // Put long log in blockquote.
-    else if ($is_commit || $is_author || $is_date) {
-      // Like this:
-      //
-      // > Commit: asdf
-      // >
-      // > Author: Jane Smith
-      $output .= '> ' . $content . "\n>\n";  
-    }
     else {
-      $output .= '> ' . $content . "\n";  
+      $output .= $content . "\n";  
     }
   }
 

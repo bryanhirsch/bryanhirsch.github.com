@@ -4,14 +4,14 @@ categories: git-log
 ---
 
 
-### git log --grep=bh-7 --oneline
+##### git log --grep="bh-7 -" --oneline
 
     c3a7a53 bh-7 - Update log.
     b0d22a5 bh-7 - Add example files from Handcrafted CSS to repo, http://handcraftedcss.com/.
     
 
 
-### git log --grep=bh-7
+##### git log --grep="bh-7 -"
 
 commit [c3a7a53d3b844b8261476a45b2797abbe0139811](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/c3a7a53d3b844b8261476a45b2797abbe0139811)
 

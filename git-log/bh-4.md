@@ -4,20 +4,34 @@ categories: git-log
 ---
 
 
-### git log --grep=bh-4 --oneline
+##### git log --grep="bh-4 -" --oneline
 
+    296c9e5 bh-4 - Remove blockquote from full git logs.
     1f728cf bh-4 - Move log files out of _posts/ into git-log/.
     ed28886 bh-4 - Make git-log a "category".
     4ad9807 bh-4 - Suppress email address and date lines. Fix formatting of blockquotes.
     d7868d1 bh-4 - Fix blockquotes markup.  	modified:   scripts/git-log
-    51709d1 _posts/2012-11-04-bh-4.md
     fceb135 bh-4 - Update git log posts.  	modified:   _posts/2012-11-04-bh-1.md  	modified:   _posts/2012-11-04-bh-2.md  	modified:   _posts/2012-11-04-bh-3.md  	modified:   _posts/2012-11-04-bh-4.md
     612c879 bh-4 - Make commit IDs link to GitHub.
     044bbf8 bh-4 - Generate git log posts to link to project IDs.
     
 
 
-### git log --grep=bh-4
+##### git log --grep="bh-4 -"
+
+commit [296c9e5f5e70d8cff172329bef1a8a9fc7f71d2d](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/296c9e5f5e70d8cff172329bef1a8a9fc7f71d2d)
+
+    bh-4 - Remove blockquote from full git logs.
+    
+     	modified:   git-log/bh-1.md
+     	modified:   git-log/bh-2.md
+     	modified:   git-log/bh-3.md
+     	modified:   git-log/bh-4.md
+     	modified:   git-log/bh-5.md
+     	modified:   git-log/bh-6.md
+     	modified:   git-log/bh-7.md
+     	modified:   git-log/bh-8.md
+     	modified:   scripts/git-log
 
 commit [1f728cf6c0f9e0c44f28345e48bf888d3c1caf52](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/1f728cf6c0f9e0c44f28345e48bf888d3c1caf52)
 
@@ -65,10 +79,6 @@ commit [d7868d16f95f507d64a7ea1a355b163d069f4783](https://github.com/bryanhirsch
 
     bh-4 - Fix blockquotes markup.
      	modified:   scripts/git-log
-
-commit [51709d1b4f934906147e35579823161b07f340a0](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/51709d1b4f934906147e35579823161b07f340a0)
-
-    _posts/2012-11-04-bh-4.md
 
 commit [fceb135d33915a1d8f44d431d283f80d5fe16780](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/fceb135d33915a1d8f44d431d283f80d5fe16780)
 

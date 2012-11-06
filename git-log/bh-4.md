@@ -6,6 +6,7 @@ categories: git-log
 
 ##### git log --grep="bh-4 -" --oneline
 
+    c11cb17 bh-4 - Add date back into log.
     9c845ab bh-4 - scripts/git-log, documentation
     317bb6c bh-4 - Use <h5> for $command line above commit log.
     296c9e5 bh-4 - Remove blockquote from full git logs.
@@ -20,6 +21,22 @@ categories: git-log
 
 
 ##### git log --grep="bh-4 -"
+
+commit [c11cb172cc67d0be3b2d7e07a564374343580811](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/c11cb172cc67d0be3b2d7e07a564374343580811)
+
+Date:   Mon Nov 5 23:38:13 2012 -0500
+
+    bh-4 - Add date back into log.
+    
+     	modified:   git-log/bh-1.md
+     	modified:   git-log/bh-2.md
+     	modified:   git-log/bh-3.md
+     	modified:   git-log/bh-4.md
+     	modified:   git-log/bh-5.md
+     	modified:   git-log/bh-6.md
+     	modified:   git-log/bh-7.md
+     	modified:   git-log/bh-8.md
+     	modified:   scripts/git-log
 
 commit [9c845ab2a4b15b0d9038e70bde81041497b948cf](https://github.com/bryanhirsch/bryanhirsch.github.com/commit/9c845ab2a4b15b0d9038e70bde81041497b948cf)
 

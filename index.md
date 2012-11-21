@@ -6,3 +6,4 @@ layout: default
 
 {% include git-log.md %}
 
+{% include references.html %}

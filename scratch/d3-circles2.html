@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Three Little Circles</title>
+    <script type="text/javascript" src="../libraries/d3/d3.v2.js"></script>
+  </head>
+  <body>
+    <p><a href="http://mbostock.github.com/d3/tutorial/circle.html">Tutorial</a></p>
+
+    <script>
+
+      d3.select("body").append("svg");
+
+      svg = d3.select("svg");
+
+      svg.selectAll("circle")
+         .data([32, 57, 112, 293])
+       .enter().append("circle")
+         .attr("cy", 90)
+         .attr("cx", String)
+         .attr("r", Math.sqrt);
+
+    </script>
+
+  </body>
+</html>

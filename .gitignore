@@ -3,3 +3,6 @@ _site
 *.swp
 *.viminfo
 .DS_Store
+scratch/petitions*
+_includes/petitions.wiki
+
